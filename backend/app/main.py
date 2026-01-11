@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from logic import liquidity_crunch, interest_rate_shock, credit_crisis
-from logic import simulate_valuation
+from .logic import liquidity_crunch, interest_rate_shock, credit_crisis
+from .logic import simulate_valuation
 
 app = FastAPI(title="Crisis Risk Simulator")
 

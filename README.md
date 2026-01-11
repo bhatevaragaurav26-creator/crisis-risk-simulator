@@ -1,22 +1,24 @@
-\# Crisis Risk Simulator (Backend)
+\# Crisis Risk Simulator
 
 
 
-A FastAPI-based backend that simulates financial crisis scenarios (liquidity, interest rate, credit shocks)
+A FastAPI-based backend that simulates financial crisis scenarios
 
-and their impact on earnings and valuation.
+(liquidity, interest rate, credit shocks) and their impact on
+
+earnings and valuation.
 
 
 
 \## Features
 
-\- Crisis simulation by entity type
+\- Liquidity, rate, and credit crisis simulations
 
-\- Valuation stress testing
+\- Valuation stress modeling
 
-\- REST API with Swagger docs
+\- REST API built with FastAPI
 
-\- Finance-focused scenario logic
+\- Interactive Swagger docs
 
 
 
@@ -30,17 +32,11 @@ and their impact on earnings and valuation.
 
 
 
-\## API Endpoints
+\## Run locally
 
-\- GET /simulate
+```bash
 
-\- GET /simulate\_valuation
-
-\- GET /docs (Swagger UI)
-
-
-
-\## Example
+uvicorn backend.app.main:app --reload
 
 
 

@@ -8,12 +8,13 @@ __pycache__/
 venv/
 .env
 
-# OS / Editor
+# OS files
 .DS_Store
 Thumbs.db
 
+# Editor configs
+.vscode/
+.idea/
+
 # Logs
 *.log
-
-# Node (if added later)
-node_modules/
